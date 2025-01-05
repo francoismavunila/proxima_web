@@ -1,5 +1,6 @@
 'use client'
 import * as LucideIcons from 'lucide-react'
+import Image from 'next/image'
 
 function ServiceCard({ title, description, features, iconName }) {
   const Icon = LucideIcons[iconName]
@@ -62,6 +63,32 @@ export default function Services() {
               features={["Business Planning", "Market Research", "Pitch Development"]}
             />
           </div>
+        </div>
+      </section>
+
+      {/* Robotics Club Section */}
+      <section className="py-20 bg-[#f5fdfc]">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-[#0e1525] mb-12 text-center">
+            Robotics Club at Local Schools
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+            <div className="rounded-lg overflow-hidden">
+              <Image src="/robotics/1.jpg" alt="Robotics Club 1" width={300} height={200} className="object-cover" />
+            </div>
+            <div className="rounded-lg overflow-hidden">
+              <Image src="/robotics/2.jpg" alt="Robotics Club 2" width={300} height={200} className="object-cover" />
+            </div>
+            <div className="rounded-lg overflow-hidden">
+              <Image src="/robotics/3.jpg" alt="Robotics Club 3" width={300} height={200} className="object-cover" />
+            </div>
+            <div className="rounded-lg overflow-hidden">
+              <Image src="/robotics/4.jpeg" alt="Robotics Club 4" width={300} height={200} className="object-cover" />
+            </div>
+          </div>
+          <p className="text-gray-600 text-center text-lg font-semibold">
+            We are making a significant impact on local schools such as Pumula High and Msiteli High by providing comprehensive robotics training. Our programs are designed to inspire and equip students with the skills needed to excel in the field of robotics, entrepreneurship and technology.
+          </p>
         </div>
       </section>
     </div>

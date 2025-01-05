@@ -8,7 +8,7 @@ export default function About() {
     {
       name: "Francois Mavunila",
       position: "Co-Founder",
-      description: "Tech enthusiast with 10+ years of experience in education, entrepreneurship, AI and robotics.",
+      description: "Tech enthusiast with 7+ years of experience in education, entrepreneurship, AI and robotics.",
       imageUrl: "/francois_mavunila.jpg"
     },
     // {
@@ -20,7 +20,7 @@ export default function About() {
     {
       name: "Devotion Chikutuva",
       position: "Co-Founder",
-      description: "Passionate educator with 10+ years of expertise in web development, AI, and robotics.",
+      description: "Passionate Entrepreneur with 7+ years of expertise in web development, AI, and robotics.",
       imageUrl: "/devotion_chikutuva.jpg"
     }
   ]
