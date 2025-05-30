@@ -33,6 +33,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+                            <li>
+                <Link href="/privacy-policy" className="text-gray-300 hover:text-secondary transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -42,7 +47,7 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="flex items-center text-gray-300">
                 <Mail size={16} className="mr-2" />
-                info@proximagen.tech
+                http://fmbusiness.com
               </p>
               <p className="flex items-center text-gray-300">
                 <Phone size={16} className="mr-2" />
@@ -50,7 +55,7 @@ export default function Footer() {
               </p>
               <p className="flex items-center text-gray-300">
                 <MapPin size={16} className="mr-2" />
-                123 Tech Street, Innovation City
+                13379 Pumula South, P. 0 Pumula, Bulawayo, Zimbabwe
               </p>
             </div>
           </div>

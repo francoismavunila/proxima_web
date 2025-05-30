@@ -67,7 +67,7 @@ export default function Contact() {
                     Our Address
                   </h3>
                   <p className="text-gray-700">
-                    123 Tech Street, Innovation City, TX 12345
+                    13379 Pumula South, P. 0 Pumula, Bulawayo, Zimbabwe
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                     Email Us
                   </h3>
                   <p className="text-gray-700">
-                    info@techfuture.com
+                    fmbusiness.com@gmail.com
                   </p>
                 </div>
               </div>
