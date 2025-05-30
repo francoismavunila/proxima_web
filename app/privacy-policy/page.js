@@ -210,9 +210,9 @@ const PrivacyPolicyPage = () => {
               </p>
               <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-600/30 mt-4">
                 <div className="space-y-2 text-sm">
-                  <p><span className="text-cyan-400 font-semibold">Email:</span> privacy@proximageneracion.com</p>
-                  <p><span className="text-cyan-400 font-semibold">Address:</span> [Your Business Address]</p>
-                  <p><span className="text-cyan-400 font-semibold">Phone:</span> [Your Contact Number]</p>
+                  <p><span className="text-cyan-400 font-semibold">Email:</span>fmbusiness.com@gmail.com</p>
+                  <p><span className="text-cyan-400 font-semibold">Address:</span>13379 Pumula South, P. 0 Pumula, Bulawayo, Zimbabwe</p>
+                  <p><span className="text-cyan-400 font-semibold">Phone:</span> +1 (574) 397-3053 / +263783857780 </p>
                 </div>
               </div>
             </div>

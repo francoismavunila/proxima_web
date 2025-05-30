@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="flex items-center text-gray-300">
                 <Mail size={16} className="mr-2" />
-                http://fmbusiness.com
+                fmbusiness.com@gmail.com
               </p>
               <p className="flex items-center text-gray-300">
                 <Phone size={16} className="mr-2" />
